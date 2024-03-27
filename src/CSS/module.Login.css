@@ -1,0 +1,17 @@
+.d-grid .btn{
+    color: white;
+    background-color: #d24539 !important;
+}
+
+.d-grid span{
+    color: white;
+}
+
+.link{
+    color: #d24539 !important;
+    text-decoration: underline;
+}
+
+.container-fluid .card {
+    width: 400px;
+}

@@ -1,0 +1,34 @@
+.Mjli{
+    color: white !important;
+}
+
+.Mjli:hover{
+    color: #d24539 !important;
+}
+
+.Mjcontainer{
+    background-color: #282435 !important;
+    padding: 50px;
+}
+
+.MjsubscribeBtn{
+    background-color: #d24539;
+    border-radius: 20px;
+    border: solid #d24539 1px;
+    color: white;
+}
+
+.MjsubscribeBtn:hover{
+    border: solid #d24539 1px;
+    color: #d24539;
+    background-color: #282435;
+}
+
+/* YourStylesheet.css */
+.whatsapp-icon {
+    transition: fill 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .whatsapp-icon:hover {
+    fill: #d24539; /* Change the fill color on hover */
+  }

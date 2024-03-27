@@ -1,0 +1,31 @@
+.MjCover {
+    height: 500px;
+    width: 500px;
+}
+
+/* Media query for tablets (portrait and landscape) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .MjCover {
+        height: 400px; /* Adjust the height for tablets */
+        width: 400px; /* Adjust the width for tablets */
+    }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 599px) {
+    .MjCover {
+        height: 300px; /* Adjust the height for mobile devices */
+        width: 300px; /* Adjust the width for mobile devices */
+    }
+}
+
+
+.MjSection{
+    padding: 50px;
+}
+
+.MjSocialmedia{
+    padding: 20px 0;
+    z-index: 2;
+    position: relative;
+}

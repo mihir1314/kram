@@ -1,0 +1,73 @@
+.cardcontaner{
+    display: inline-flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: auto;
+  align-items: center;
+}
+
+.services{
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+    width: auto;
+}
+
+
+
+  .card-img-top{
+    height: auto;
+    width: 100%;
+  }
+
+.serviceBtn{
+    background-color: #d24539;
+    color: white;
+}
+
+.serviceBtn:hover{
+    border: 1px solid #d24539;
+    color: #d24539;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .cardcontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+  
+    .card {
+      width: 100%; /* Full width on smaller screens */
+      max-width: none; /* Remove max-width on smaller screens */
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .services {
+      padding: 20px;
+    }
+  }
+  
+  .MjCard{
+    position: relative;
+    background-size: cover;
+    transition: 1s;
+  }
+
+  .MjCard:hover{
+    opacity: 0.7;
+  }
+
+  .MjAnimated-heading{
+    opacity: 0;
+    transform: scale(0.8) rotate(-10deg);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+
+  .MjAnimated-heading.in-view{
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }

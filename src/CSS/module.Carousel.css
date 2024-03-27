@@ -1,0 +1,48 @@
+.carouselIMG{
+    width: 100%; /* Set width to 100% to fill the carousel container */
+    height: 640px; /* Maintain aspect ratio */
+    border-radius: 10px;
+  }
+
+
+
+
+/* Styles for the indicators at the bottom */
+.carousel-indicators {
+  margin-bottom: 20px;
+}
+
+/* Style the active indicator */
+.carousel-indicators .active {
+  background-color: #d24539; /* Change the color of the active indicator */
+}
+
+.MjCoverCol{
+  right:0;
+  position: relative;
+  width: 600px;
+  height: 500px;
+  margin: 0 !important;
+}
+
+.MjFonth1{
+  font-size: 75px;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: white !important;
+}
+
+.MjPera{
+  color: white !important;
+}
+.MjFonth2 {
+  background-color: #d24539;
+  color: white;
+  display: inline-block; /* Add this line */
+  padding: 0px 20px; /* Add padding for better visibility, adjust as needed */
+}
+
+.MjButton{
+  background-color: #2b2635;
+}

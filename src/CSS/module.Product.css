@@ -1,0 +1,9 @@
+.MjCard{
+    min-height: 200px;
+}
+
+.card{
+    background-color: #282435;
+    color: white;
+    border-radius: 20px;
+}

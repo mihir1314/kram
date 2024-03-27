@@ -1,0 +1,29 @@
+.MjSection2{
+    background-color: #282435;
+    color: white !important;
+    width: 100% !important;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.car{
+    width: 100px;
+    height: 200px;
+    padding: 0;
+    MARGIN: 0 30px;
+}
+
+p.MjSection2{
+    color: white;
+}
+
+a{
+    color: white !important;
+}
+
+.road{
+    height: 500px;
+    position: relative;
+    padding: 20 0 !important;
+    MARGIN: 0 85px;
+}

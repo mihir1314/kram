@@ -1,0 +1,23 @@
+.scroll-up-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d24539; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .scroll-up-btn.show {
+    opacity: 1;
+    z-index: 1;
+  }
+  

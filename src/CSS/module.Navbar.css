@@ -1,0 +1,152 @@
+nav {
+    position: sticky !important;
+}
+
+.kram {
+    color: white;
+}
+
+.autos {
+    color: #d24539;
+}
+
+button.logoutBTN {
+    border-color: #d24539 !important;
+    color: #d24539 !important;
+    border-radius: 30px;
+    z-index: 2;
+    position: relative;
+}
+
+button.logoutBTN:hover {
+    background-color: #d24539 !important;
+    border-color: #d24539 !important;
+    color: #ffffff !important;
+}
+
+a.logoutBTN {
+    border-color: #d24539 !important;
+    color: #d24539 !important;
+    border-radius: 30px;
+    z-index: 2;
+    position: relative;
+}
+
+a.logoutBTN:hover {
+    background-color: #d24539 !important;
+    border-color: #d24539 !important;
+    color: #ffffff !important;
+}
+
+.navigationBar {
+    background-color: #ffffff !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Horizontal offset, vertical offset, blur radius, and color */
+}
+
+svg {
+    width: 24px;
+    /* Adjust the size as needed */
+    height: 24px;
+    margin-right: 10px;
+    /* Add some spacing between icons */
+}
+
+/* Style for image icons */
+img {
+    width: 24px;
+    /* Adjust the size as needed */
+    height: 24px;
+    margin-right: 10px;
+    /* Add some spacing between icons */
+    transition: 0.3s;
+}
+
+.cart {
+    transition: 0.3s;
+}
+
+.heart {
+    transition: 0.3s;
+}
+
+.menu {
+    transition: 0.3s;
+}
+
+.menu:hover {
+    content: url('../Art/menuH.png') !important;
+    /* Replace 'path-to-hover-image.png' with the actual path to your hover image */
+}
+
+.cart:hover {
+    content: url('../Art/cartH.png') !important;
+    /* Replace 'path-to-hover-image.png' with the actual path to your hover image */
+}
+
+.heart:hover {
+    content: url('../Art/heartH.png') !important;
+    /* Replace 'path-to-hover-image.png' with the actual path to your hover image */
+}
+
+.page {
+    color: white !important;
+}
+
+.page:hover {
+    color: #d24539 !important;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+    font-weight: 700;
+}
+
+.customtoggler {
+    border: none !important;
+}
+
+.customtoggler:hover {
+    border: none !important;
+}
+
+.MjNav {
+    background-color: #1f1b2d !important;
+    padding: 25px 0px;
+    transition: background-color 1s ease;
+    z-index: 3;
+}
+
+.MjNav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #282435 !important;
+    /* Change color when sticky */
+    padding: 15px 0;
+    /* Adjust padding as needed */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow when sticky */
+    z-index: 3;
+    padding: 25px 0;
+}
+
+.dropdown-menu {
+    background-color: #282435;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #282435;
+    color: #d24539 !important;
+}
+
+.nav-item .active {
+    color: #d24539 !important;
+}
+
+.transparent-background {
+    background: none !important;
+    border: none;
+}
+

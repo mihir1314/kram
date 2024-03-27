@@ -1,0 +1,23 @@
+.adminhome{
+    background-color: white !important;
+    color: black;
+}
+
+
+.sidebarMenu{
+    position: fixed !important;
+    height: 100%;
+    color: black;
+}
+
+.navAdmin{
+    color: black !important;
+}
+
+.navAdmin:hover{
+    color: blueviolet !important;
+}
+
+.activeAdmin{
+    color: blueviolet !important;
+}

@@ -1,0 +1,37 @@
+/* Add this CSS to your styles file */
+.MapContainer {
+    position: relative;
+    height: 500px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .MapContainer .leaflet-container {
+    height: 100%;
+    width: 80%;
+  }
+  
+  .MapContainer .leaflet-routing-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .MapContainer .leaflet-routing-container .leaflet-routing-error {
+    color: red;
+  }
+  
+  .MapContainer .leaflet-popup {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add more styles as needed */
+  
+  .MapContainer span{
+    color: #d24539;
+  }
